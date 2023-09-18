@@ -9,9 +9,8 @@ describe('what-is-a-test', () => {
       expect(name).toEqual('Susan')
     })
   })
-
-
-  describe('Height', () => {
+  
+ describe('Height', () => {
     it('is less than 40', () => {
       expect(height).toBeLessThan(40)
     })
